@@ -1,0 +1,63 @@
+@media(max-width:850px){
+
+  .formulario{
+    grid-template-columns:1fr;
+  }
+
+  .formulario button{
+    width:100%;
+  }
+
+}
+
+@media(max-width:700px){
+
+  .container{
+    padding:25px;
+  }
+
+  .acoes{
+    flex-direction:column;
+  }
+
+  .card-participante{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+  }
+
+  .linha{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:5px;
+  }
+
+  .titulo{
+    min-width:auto;
+  }
+
+  .btn-remover{
+    width:100%;
+  }
+
+  .header h1{
+    font-size:28px;
+  }
+
+  .resultado-final h1{
+    font-size:38px;
+  }
+
+  .trofeu{
+    font-size:70px;
+  }
+
+  .icone-loading{
+    font-size:70px;
+  }
+
+  .modal-resultado{
+    padding:35px 25px;
+  }
+
+}

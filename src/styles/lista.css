@@ -1,0 +1,115 @@
+.lista{
+  margin-bottom:40px;
+}
+
+.topo-lista{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  margin-bottom:20px;
+}
+
+.topo-lista h2{
+  color:#0033a0;
+  font-size:32px;
+}
+
+.badge-total{
+  background:#2563eb;
+
+  color:white;
+
+  padding:10px 16px;
+
+  border-radius:12px;
+
+  font-size:14px;
+
+  font-weight:bold;
+}
+
+.card-participante{
+
+  background:#f8fafc;
+
+  border:1px solid #e2e8f0;
+
+  border-radius:18px;
+
+  padding:22px;
+
+  margin-bottom:15px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  transition:0.2s;
+}
+
+.card-participante:hover{
+  border-color:#2563eb;
+}
+
+.dados{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.item-dado{
+  display:flex;
+  gap:10px;
+}
+
+.item-dado strong{
+  color:#0033a0;
+}
+
+.item-dado span{
+  color:#334155;
+}
+
+.btn-remover{
+  width:50px;
+  height:50px;
+
+  border:none;
+
+  border-radius:14px;
+
+  background:#ef4444;
+
+  color:white;
+
+  cursor:pointer;
+
+  font-size:18px;
+
+  transition:0.2s;
+}
+
+.btn-remover:hover{
+  transform:scale(1.05);
+}
+
+@media(max-width:700px){
+
+  .topo-lista{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+  }
+
+  .card-participante{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+  }
+
+  .btn-remover{
+    width:100%;
+  }
+
+}
