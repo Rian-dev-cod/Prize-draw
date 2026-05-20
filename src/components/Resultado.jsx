@@ -115,7 +115,7 @@ function Resultado({
                   <div>
                     <span>ID</span>
                     <strong>
-                      #{resultado.id}
+                      {resultado.id}
                     </strong>
                   </div>
 
