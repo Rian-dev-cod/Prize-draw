@@ -15,24 +15,6 @@
   backdrop-filter:blur(4px);
 }
 
-.modal-resultado{
-  width:100%;
-  max-width:650px;
-
-  background:white;
-
-  border-radius:30px;
-
-  padding:50px 40px;
-
-  position:relative;
-
-  overflow:hidden;
-
-  box-shadow:
-  0 20px 70px rgba(0,0,0,0.4);
-}
-
 .btn-fechar{
   position:absolute;
 
@@ -60,6 +42,26 @@
   justify-content:center;
   align-items:center;
 }
+
+.modal-resultado{
+  width:100%;
+  max-width:650px;
+
+  background:white;
+
+  border-radius:30px;
+
+  padding:50px 40px;
+
+  position:relative;
+
+  overflow:hidden;
+
+  box-shadow:
+  0 20px 70px rgba(0,0,0,0.4);
+}
+
+
 
 .btn-fechar:hover{
   background:#ddd;
