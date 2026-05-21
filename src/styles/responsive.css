@@ -12,6 +12,14 @@
 
 @media(max-width:700px){
 
+  .btn-fechar{
+    top:10px;
+    right:10px;
+
+    width:45px;
+    height:45px;
+  }
+
   .container{
     padding:25px;
   }
