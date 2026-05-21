@@ -36,23 +36,29 @@
 .btn-fechar{
   position:absolute;
 
-  top:20px;
-  right:20px;
+  top:15px;
+  right:15px;
 
-  width:45px;
-  height:45px;
+  z-index:10;
+
+  width:50px;
+  height:50px;
 
   border:none;
 
-  border-radius:12px;
+  border-radius:14px;
 
   background:#f1f1f1;
 
   cursor:pointer;
 
-  font-size:18px;
+  font-size:20px;
 
   transition:0.3s;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .btn-fechar:hover{
